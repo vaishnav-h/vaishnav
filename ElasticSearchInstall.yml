@@ -1,0 +1,8 @@
+---
+# Author: Vaishnav Harikumar
+# Version: 19062020
+
+- hosts: app
+  roles: 
+  - java
+  - elasticsearch
